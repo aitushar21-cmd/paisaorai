@@ -1,43 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PaisaOrAI</title>
+
+<style>
+
+body{
+background:#0f172a;
+color:white;
+font-family:Arial,sans-serif;
+margin:0;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.hero{
+text-align:center;
+padding:70px 20px;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:22px;
+color:#94a3b8;
+}
+
+.section-title{
+font-size:32px;
+margin-top:50px;
+margin-bottom:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.button{
+display:inline-block;
+padding:12px 20px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:10px;
+margin-top:15px;
+}
+
+footer{
+text-align:center;
+padding:60px 0;
+color:#94a3b8;
+}
+
+</style>
 </head>
-<body style="background:#0f172a;color:white;font-family:Arial;text-align:center;padding:50px;">
+
+<body>
+
+<div class="container">
+
+<div class="hero">
 
 <h1>🚀 PaisaOrAI</h1>
 
-<h3>AI • Automation • Python • Free Tools</h3>
+<p>AI • Automation • Python • Free Tools</p>
 
-<hr>
+</div>
 
-<h2>Projects</h2>
+<h2 class="section-title">Projects</h2>
 
-<p>
-<a href="https://github.com/aitushar21-cmd/resume-ats-checker" style="color:#22c55e;">
-Resume ATS Checker
+<div class="cards">
+
+<div class="card">
+<h2>Resume ATS Checker</h2>
+<p>AI-powered ATS resume analyzer.</p>
+
+<a class="button"
+href="https://github.com/aitushar21-cmd/resume-ats-checker">
+Open Project
 </a>
-</p>
 
-<p>
-<a href="https://github.com/aitushar21-cmd/Claude-code-free" style="color:#22c55e;">
-Claude Code Free
+</div>
+
+<div class="card">
+
+<h2>Claude Code Free</h2>
+
+<p>Run Claude Code for free using OpenRouter.</p>
+
+<a class="button"
+href="https://github.com/aitushar21-cmd/Claude-code-free">
+Open Project
 </a>
-</p>
 
-<hr>
+</div>
 
-<h2>Socials</h2>
+</div>
 
-<p>Instagram: @paisaorai</p>
 
-<p>
-<a href="https://github.com/aitushar21-cmd" style="color:#3b82f6;">
-GitHub
+<h2 class="section-title">Socials</h2>
+
+<div class="cards">
+
+<div class="card">
+<h2>Instagram</h2>
+<p>@paisaorai</p>
+</div>
+
+<div class="card">
+<h2>GitHub</h2>
+<p>Open-source projects and tools.</p>
+
+<a class="button"
+href="https://github.com/aitushar21-cmd">
+Visit
 </a>
-</p>
 
-<p>Created with ❤️ by @paisaorai</p>
+</div>
+
+</div>
+
+
+<footer>
+
+Created with ❤️ by @paisaorai
+
+</footer>
+
+</div>
 
 </body>
 </html>
